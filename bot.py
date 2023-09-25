@@ -56,7 +56,6 @@ def _telegram_file(bot, message):
   mp3file = f"{nom}.mp3"
   global result
   result = f"{nom}.txt"
-  cmd('''mkdir tafreg''')
   message.reply(
              text = CHOOSE_UR_LANG,
              reply_markup = InlineKeyboardMarkup(CHOOSE_UR_LANG_BUTTONS)
